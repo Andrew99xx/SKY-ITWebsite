@@ -14,6 +14,9 @@ jQuery(document).ready(function($){
       }, 500); // Duration of the animation in milliseconds
   });
     
+    $('[data-fancybox="gallery"]').fancybox({
+     // Options will go here
+    });
     
     $(".mnutog").on('click', function(){
         $("header.header").addClass("active");
